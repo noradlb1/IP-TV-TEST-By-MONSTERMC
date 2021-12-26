@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AL_M3u_IPTV_06_11_2021__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AL-M3u-IPTV-06-11-2021 (4).m3u;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TV1" xml:space="preserve">
+    <value>#EXTINF:-1 tvg-ID="" tvg-name="------| ALBANIA |------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",------| ALBANIA |------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114667
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| BIG BROTHER VIP 1 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| BIG BROTHER VIP 1 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171196
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| BIG BROTHER VIP 2 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| BIG BROTHER VIP 2 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171197
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| A1 Report" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/A1RAPORT1.png" group-title="EU | ALBANIA",|ALB| A1 Report
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33405
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| A1 Shqiptare" tvg-logo="https://lh3.googleusercontent.com/proxy/cj-QXzpnyjTZTcm9CBFIwzKFKEBjK-hyUMK3_3dE7XDSXrZl9TO1qgGfB2KV6_V3pxFFS_Zw4WrVItTdJ_QjerrWMA" group-title="EU | ALBANIA",|ALB| A1 Shqiptare
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33406
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ABC News" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/ABCNEWS.png" group-title="EU | ALBANIA",|ALB| ABC News
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33407
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Besa TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TVBESA.png" group-title="EU | ALBANIA",|ALB| Besa TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33415
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Club TV HD" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/club_tv_al.jpg" group-title="EU | ALBANIA",|ALB| Club TV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33418
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Albse" tvg-logo="http://albse.tv/wp-content/uploads/2018/11/1.png" group-title="EU | ALBANIA",|ALB| Albse
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139755
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Dielli TV" tvg-logo="http://vipotv.com/wp-content/uploads/2020/07/tv-dielli.png" group-title="EU | ALBANIA",|ALB| Dielli TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33425
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Digi Gold 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/DIGIGOLD1.png" group-title="EU | ALBANIA",|ALB|  Digi Gold 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142077
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Digi Gold 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/DIGIGOLD2.png" group-title="EU | ALBANIA",|ALB|  Digi Gold 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142076
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Digi Gold 3 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/DIGIGOLD3.png" group-title="EU | ALBANIA",|ALB| Digi Gold 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33423
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Digi Gold 4 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/DIGIGOLD4.png" group-title="EU | ALBANIA",|ALB|  Digi Gold 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142075
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Dukagjini FHD" tvg-logo="https://dracarys.gjirafa.com/api/storage/gjvideo/images/channel/desktop/dukagjini.jpg" group-title="EU | ALBANIA",|ALB| Dukagjini FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33426
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| First Channel" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FIRSTCHANEL.png" group-title="EU | ALBANIA",|ALB| First Channel
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33440
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Gjurme Shqipetare TV" tvg-logo="https://top-channel.tv/wp-content/uploads/2017/11/logo_gjurme.png" group-title="EU | ALBANIA",|ALB| Gjurme Shqipetare TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33446
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Junior TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/JUNIOR.png" group-title="EU | ALBANIA",|ALB| Junior TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33420
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Klan Kosova FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KLAN.png" group-title="EU | ALBANIA",|ALB| Klan Kosova FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33454
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Klan Kosova Toksor" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KLANKOSOVA.png" group-title="EU | ALBANIA",|ALB| Klan Kosova Toksor
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33455
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Klan Plus FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KLANPLUS.png" group-title="EU | ALBANIA",|ALB| Klan Plus FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33456
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Klan TV FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KLAN.png" group-title="EU | ALBANIA",|ALB| Klan TV FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33453
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KTV HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KTVHD.png" group-title="EU | ALBANIA",|ALB| KTV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33461
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KTV Toksor" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KTVHD.png" group-title="EU | ALBANIA",|ALB| KTV Toksor
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33460
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ATV HD" tvg-logo="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/32/f2/d3/32f2d3d8-9214-94ad-fcd8-e16519738a2b/source/200x200bb.jpg" group-title="EU | ALBANIA",|ALB| ATV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139625
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KANAL 10" tvg-logo="https://kanal10.live/public/assets/images/10_r.png" group-title="EU | ALBANIA",|ALB| KANAL 10
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139626
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KANAL D DRAMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/Kanal_D_Drama.png" group-title="EU | ALBANIA",|ALB| KANAL D DRAMA
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139648
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Living FHD" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/tring_living.jpg" group-title="EU | ALBANIA",|ALB| Living FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33462
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Muse" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGMUSE.png" group-title="EU | ALBANIA",|ALB| Muse
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33469
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| News 24 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/NEWS24.png" group-title="EU | ALBANIA",|ALB| News 24 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33470
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ON TV" tvg-logo="https://image.winudf.com/v2/image/YWwub250di5hcmxpbmRfaWNvbl8xNTE4NzQ1OTI0XzA3Mw/icon.png?w=170&amp;fakeurl=1" group-title="EU | ALBANIA",|ALB| ON TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33521
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Ora News HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/ORANEWS.png" group-title="EU | ALBANIA",|ALB| Ora News HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33471
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Q Islam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Islam_Channel_Logo_COLOUR.png" group-title="EU | ALBANIA",|ALB| Q Islam
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62673
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Rrokum TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RROKUM.png" group-title="EU | ALBANIA",|ALB| Rrokum TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33451
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTK 1" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/rtk1.png" group-title="EU | ALBANIA",|ALB| RTK 1
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33483
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTK 2" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTK3.png" group-title="EU | ALBANIA",|ALB| RTK 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33484
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTK 3" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTK3.png" group-title="EU | ALBANIA",|ALB| RTK 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33485
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTK 4" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTK4.png" group-title="EU | ALBANIA",|ALB| RTK 4
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33486
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH 24 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSH24.png" group-title="EU | ALBANIA",|ALB| RTSH 24 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139639
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSH1.png" group-title="EU | ALBANIA",|ALB| RTSH 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139636
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSH2.png" group-title="EU | ALBANIA",|ALB| RTSH 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33482
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH 3" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSH3.png" group-title="EU | ALBANIA",|ALB| RTSH 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33450
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH Sport FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSHSPORT.png" group-title="EU | ALBANIA",|ALB| RTSH Sport FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33487
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH FEMIJE" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSHFEMIJE.png" group-title="EU | ALBANIA",|ALB| RTSH FEMIJE
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139635
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH GJIROKASTRA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/RTSH_Gjirokastra_%282020_Logo%29.svg" group-title="EU | ALBANIA",|ALB| RTSH GJIROKASTRA
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139638
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH PLUS" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSHPLUS.png" group-title="EU | ALBANIA",|ALB| RTSH PLUS
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139640
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH SHQIP" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSHSHQIP.png" group-title="EU | ALBANIA",|ALB| RTSH SHQIP
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139637
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV Fontana" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV Fontana
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33474
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV21 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33475
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Junior" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21JUNIOR.png" group-title="EU | ALBANIA",|ALB| RTV21 Junior
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33476
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Maqedonia" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV21 Maqedonia
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33477
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Mix" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21MIX.png" group-title="EU | ALBANIA",|ALB| RTV21 Mix
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33478
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Plus FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV21 Plus FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33479
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Toksor FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV21 Toksor FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33481
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Syri Tv" tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/al-syri-tv-2431.jpg" group-title="EU | ALBANIA",|ALB| Syri Tv
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139633
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Syri Blue FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SYRIVISION.png" group-title="EU | ALBANIA",|ALB| Syri Blue FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33540
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ALSAT M HD" tvg-logo="" group-title="EU | ALBANIA",|ALB| ALSAT M HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139627
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KLAN MACEDONIA" tvg-logo="https://klanmacedonia.mk/wp-content/uploads/2018/09/cropped-klanretina.png" group-title="EU | ALBANIA",|ALB| KLAN MACEDONIA
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139628
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| KTV KOHAVISION" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Kohavision_Logo.png" group-title="EU | ALBANIA",|ALB| KTV KOHAVISION
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139624
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| MRT 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_MRT_2_SAT_%282012-%29.svg/1200px-Logo_of_MRT_2_SAT_%282012-%29.svg.png" group-title="EU | ALBANIA",|ALB| MRT 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139631
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SHENJA TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TVSHENJA.png" group-title="EU | ALBANIA",|ALB| SHENJA TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139644
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| STAR PLUS SHKODER HD" tvg-logo="https://i1.wp.com/www.starplus-tv.com/wp-content/uploads/2018/07/image-21.jpg?fit=960%2C960&amp;ssl=1" group-title="EU | ALBANIA",|ALB| STAR PLUS SHKODER HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139643
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TDC" tvg-logo="https://cdn-0.tvprofil.com/img/kanali-logo/tdc_logo.png" group-title="EU | ALBANIA",|ALB| TDC
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139632
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TEMA TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TEMATVAL.png" group-title="EU | ALBANIA",|ALB| TEMA TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139650
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV CHANNEL SHOKDER" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwni6wQl7mU_xhp_xaSdSzfD6wvz7ywsplmrjAIA=s900-c-k-c0x00ffffff-no-rj" group-title="EU | ALBANIA",|ALB| TV CHANNEL SHOKDER
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139642
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV ERA" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TVERA.png" group-title="EU | ALBANIA",|ALB| TV ERA
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139645
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV GLOBI" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TVGLOBI.png" group-title="EU | ALBANIA",|ALB| TV GLOBI
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139646
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV KOPLIKU HD" tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/al-kopliku-tv-5681.jpg" group-title="EU | ALBANIA",|ALB| TV KOPLIKU HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139647
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV PRESHEVA" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngCOo6Ugb0jVMQ63WSxqbl4jOGMssvqH_Sv8oWB=s900-c-k-c0x00ffffff-no-rj" group-title="EU | ALBANIA",|ALB| RTV PRESHEVA
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139649
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV2 GOSTIVAR" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mD0VePQX-A5V7bRgG2JPIbSDEPSZk0h7j_mjA=s240-mo-c-c0xffffffff-rj-k-no" group-title="EU | ALBANIA",|ALB| TV2 GOSTIVAR
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/139630
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| T HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/T.png" group-title="EU | ALBANIA",|ALB| T HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33518
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| T7" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/T7.png" group-title="EU | ALBANIA",|ALB| T7
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33447
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tetova TV HD" tvg-logo="https://imgc.androidappsapk.co/uqJzLmJ3bqNnmAiwUF54c8K6hRNDlEZnsuyvdVO30ZMTsS_I5qkxLzsdxGX6SP98Hg=h300" group-title="EU | ALBANIA",|ALB| Tetova TV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33520
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tip TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TIPTV.png" group-title="EU | ALBANIA",|ALB| Tip TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33489
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tirana TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tirana_TV.svg/1024px-Tirana_TV.svg.png" group-title="EU | ALBANIA",|ALB| Tirana TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33491
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TOP Channel FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TOPCHANNEL.png" group-title="EU | ALBANIA",|ALB| TOP Channel FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33490
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Top Estrada TV HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TOPCHANNEL.png" group-title="EU | ALBANIA",|ALB| Top Estrada TV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33466
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Top News" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TOPNEWS.png" group-title="EU | ALBANIA",|ALB| Top News
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33519
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Arta" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/ARTANEWS.png" group-title="EU | ALBANIA",|ALB| TV Arta
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33513
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Koha" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KOHATVMK.png" group-title="EU | ALBANIA",|ALB| TV Koha
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33515
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Mitrovica" tvg-logo="http://okruzenje.net/tvshow/sites/default/files/inline-images/TV%20Mitrovica.png" group-title="EU | ALBANIA",|ALB| TV Mitrovica
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33511
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Opoja HD" tvg-logo="http://mahs.work:80/lutfi-djk/OiWcJ0UaBJ/33693" group-title="EU | ALBANIA",|ALB| TV Opoja HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33512
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Syri Vision" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SYRIVISION.png" group-title="EU | ALBANIA",|ALB| TV Syri Vision
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33516
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| TV Uskana FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TVUSKANA.png" group-title="EU | ALBANIA",|ALB| TV Uskana FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33514
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Vizion Plus HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/VIZIONPLUS.png" group-title="EU | ALBANIA",|ALB| Vizion Plus HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33537
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Vizion Plus Toksor FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/VIZIONPLUS.png" group-title="EU | ALBANIA",|ALB| Vizion Plus Toksor FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33538
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ZICO TV" tvg-logo="https://www.seekpng.com/png/full/376-3763959_zico-tv-television.png" group-title="EU | ALBANIA",|ALB| ZICO TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33536
+#EXTINF:-1 tvg-ID="" tvg-name="--------| KIDS |--------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",--------| KIDS |--------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114670
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Baby Tv" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/BABYTV.png" group-title="EU | ALBANIA",|ALB| Baby Tv
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33416
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Bang Bang" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/BANGBANG.png" group-title="EU | ALBANIA",|ALB| Bang Bang
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33413
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Bang Bang HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/BANGBANG.png" group-title="EU | ALBANIA",|ALB| Bang Bang HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62675
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Cufo" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/CUFO.png" group-title="EU | ALBANIA",|ALB| Cufo
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33417
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Q Baby Bus TV FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/BABYTV.png" group-title="EU | ALBANIA",|ALB| Q Baby Bus TV FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62680
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Q Bleta TV FHD" tvg-logo="https://image.winudf.com/v2/image1/Y29tLmFwcC5ibGV0YXR2X2ljb25fMTU1MDYyMTA0NV8wMDg/icon.png?w=170&amp;fakeurl=1" group-title="EU | ALBANIA",|ALB| Q Bleta TV FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62682
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Q Bubrreci TV FHD" tvg-logo="https://lh3.googleusercontent.com/Wjs8udhBNqrDBeRXl6eLkSsQmqlktX_MZf89WfOaqryMpvpsZSwmLwPHtKTQZY2oneQ=w300" group-title="EU | ALBANIA",|ALB| Q Bubrreci TV FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62676
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Q Femije FHD" tvg-logo="https://tvtvtv.ru/icons/rtsh_femije.png" group-title="EU | ALBANIA",|ALB| Q Femije FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62684
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sofia HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SOFIA.png" group-title="EU | ALBANIA",|ALB| Sofia HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62674
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sofia TV" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SOFIA.png" group-title="EU | ALBANIA",|ALB| Sofia TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33523
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Kids" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGKIDS.png" group-title="EU | ALBANIA",|ALB| Tring Kids
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33499
+#EXTINF:-1 tvg-ID="" tvg-name="-------| SPORTS |-------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",-------| SPORTS |-------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114679
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT1.png" group-title="EU | ALBANIA",|ALB| Super Sport 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62632
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT2.png" group-title="EU | ALBANIA",|ALB| Super Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62633
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT2.png" group-title="EU | ALBANIA",|ALB| Super Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33532
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 3 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT3.png" group-title="EU | ALBANIA",|ALB| Super Sport 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62634
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 3 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT3.png" group-title="EU | ALBANIA",|ALB| Super Sport 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33533
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 4 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT4.png" group-title="EU | ALBANIA",|ALB| Super Sport 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62635
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 4 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT4.png" group-title="EU | ALBANIA",|ALB| Super Sport 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33534
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 5 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT5.png" group-title="EU | ALBANIA",|ALB| Super Sport 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62636
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport 5 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT5.png" group-title="EU | ALBANIA",|ALB| Super Sport 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33535
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport Kosova 2 HD" tvg-logo="https://i.pinimg.com/originals/0c/4c/ce/0c4cce090968740942de1de4e0bd0a93.png" group-title="EU | ALBANIA",|ALB| Super Sport Kosova 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62655
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Super Sport News HD" tvg-logo="https://supersport.azureedge.net/web-assets/placeholder.png" group-title="EU | ALBANIA",|ALB| Super Sport News HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33531
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Supersonic TV" tvg-logo="https://www.super-sonic.tv/wp-content/uploads/2018/07/LOGO-STV-NEW-2013.png" group-title="EU | ALBANIA",|ALB| Supersonic TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33530
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 1" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT1.png" group-title="EU | ALBANIA",|ALB| SuperSport 1
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62637
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 1 SD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT1.png" group-title="EU | ALBANIA",|ALB| SuperSport 1 SD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62627
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 2" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT2.png" group-title="EU | ALBANIA",|ALB| SuperSport 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62638
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 2 SD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT2.png" group-title="EU | ALBANIA",|ALB| SuperSport 2 SD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62628
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 3" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT3.png" group-title="EU | ALBANIA",|ALB| SuperSport 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62639
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 3 SD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT3.png" group-title="EU | ALBANIA",|ALB| SuperSport 3 SD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62629
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 4" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT4.png" group-title="EU | ALBANIA",|ALB| SuperSport 4
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62640
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 4 SD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT4.png" group-title="EU | ALBANIA",|ALB| SuperSport 4 SD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62631
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 5" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT5.png" group-title="EU | ALBANIA",|ALB| SuperSport 5
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62641
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 5 SD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/SUPERSPORT5.png" group-title="EU | ALBANIA",|ALB| SuperSport 5 SD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62630
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| SuperSport 6 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| SuperSport 6 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62642
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 1 FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 1 FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62643
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33505
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 2 FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 2 FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62644
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33506
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 3 FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 3 FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62645
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 3 FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 3 FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33507
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 4 FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 4 FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62646
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport 4 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORT.png" group-title="EU | ALBANIA",|ALB| Tring Sport 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33508
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Sport News" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSPORTNEWS.png" group-title="EU | ALBANIA",|ALB| Tring Sport News
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33509
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| K SPORT 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT1.png" group-title="EU | ALBANIA",|ALB| K SPORT 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62647
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| K SPORT 3 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT1.png" group-title="EU | ALBANIA",|ALB| K SPORT 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33457
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| K SPORT 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT1.png" group-title="EU | ALBANIA",|ALB| K SPORT 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62652
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 2" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT2.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62648
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT2.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33458
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 2 HD" tvg-logo="https://i.pinimg.com/originals/0c/4c/ce/0c4cce090968740942de1de4e0bd0a93.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62653
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 3" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT1.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62649
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 4" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT4.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 4
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62650
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Kujtesa Sport 5 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/KUJTESASPORT1.png" group-title="EU | ALBANIA",|ALB| Kujtesa Sport 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62651
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Sport 1 HD" tvg-logo="https://i.pinimg.com/originals/0c/4c/ce/0c4cce090968740942de1de4e0bd0a93.png" group-title="EU | ALBANIA",|ALB| ART Sport 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62656
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Sport 2 HD" tvg-logo="https://i.pinimg.com/originals/0c/4c/ce/0c4cce090968740942de1de4e0bd0a93.png" group-title="EU | ALBANIA",|ALB| ART Sport 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62657
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Sport 3 HD" tvg-logo="https://i.pinimg.com/originals/0c/4c/ce/0c4cce090968740942de1de4e0bd0a93.png" group-title="EU | ALBANIA",|ALB| ART Sport 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62658
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| ART SPORT 1 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| ART SPORT 1 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156719
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| ART SPORT 2 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| ART SPORT 2 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156720
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| ART SPORT 3 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| ART SPORT 3 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156721
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FIGHT BOX" tvg-logo="" group-title="EU | ALBANIA",|AL| FIGHT BOX
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156736
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KUJTESA SPORT 1" tvg-logo="" group-title="EU | ALBANIA",|AL| KUJTESA SPORT 1
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156714
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KUJTESA SPORT 2" tvg-logo="" group-title="EU | ALBANIA",|AL| KUJTESA SPORT 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156715
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KUJTESA SPORT 3" tvg-logo="" group-title="EU | ALBANIA",|AL| KUJTESA SPORT 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156716
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KUJTESA SPORT 4" tvg-logo="" group-title="EU | ALBANIA",|AL| KUJTESA SPORT 4
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156717
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KUJTESA SPORT 5" tvg-logo="" group-title="EU | ALBANIA",|AL| KUJTESA SPORT 5
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156718
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156708
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156709
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156710
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156711
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 5 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156712
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| SUPER SPORT 6 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| SUPER SPORT 6 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156713
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156704
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156705
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156706
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT 4 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT 4 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156735
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156707
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TRING SPORT NEWS" tvg-logo="" group-title="EU | ALBANIA",|AL| TRING SPORT NEWS
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156703
+#EXTINF:-1 tvg-ID="" tvg-name="-----| DOCUMENTARY |-----" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",-----| DOCUMENTARY |-----
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114671
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Discovery Channel" tvg-logo="http://185.165.243.195/logo_plus/PORTUGAL/DISCOVERYHD.png" group-title="EU | ALBANIA",|ALB| Discovery Channel
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62667
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Discovery Channel AL" tvg-logo="http://185.165.243.195/logo_plus/PORTUGAL/DISCOVERYHD.png" group-title="EU | ALBANIA",|ALB| Discovery Channel AL
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62668
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Explorer Histori" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/digit_alb_explorer_histori.jpg" group-title="EU | ALBANIA",|ALB| Explorer Histori
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33430
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Explorer Natyra" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/digit_alb_explorer_natyra.jpg" group-title="EU | ALBANIA",|ALB| Explorer Natyra
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33428
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Explorer Shkenc" tvg-logo="http://185.165.243.195/VOD/logo/Explorer-Shkence.jpg" group-title="EU | ALBANIA",|ALB| Explorer Shkenc
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33429
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Shkence" tvg-logo="http://mahs.work:80/lutfi-djk/OiWcJ0UaBJ/33677" group-title="EU | ALBANIA",|ALB| Sky Shkence
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33529
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring History" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGHISTORY.png" group-title="EU | ALBANIA",|ALB| Tring History
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33496
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Planet" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGPLANET.png" group-title="EU | ALBANIA",|ALB| Tring Planet
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33500
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring World" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGWORLD.png" group-title="EU | ALBANIA",|ALB| Tring World
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33504
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Turbo Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Discovery_Turbo.png" group-title="EU | ALBANIA",|ALB| Turbo Channel
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33510
+#EXTINF:-1 tvg-ID="" tvg-name="-------| CINEMA |-------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",-------| CINEMA |-------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114678
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Alb Action HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGAKSION.png" group-title="EU | ALBANIA",|ALB| Alb Action HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33408
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Alb Thriller HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMTHRILLER.png" group-title="EU | ALBANIA",|ALB| Alb Thriller HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33412
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Doku 1 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/ARTANEWS.png" group-title="EU | ALBANIA",|ALB| ART Doku 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62720
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Doku 2 HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/ARTANEWS.png" group-title="EU | ALBANIA",|ALB| ART Doku 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62721
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Kino 1 HD" tvg-logo="https://www.artekinofestival.com/assets/img/open_graph_image.png" group-title="EU | ALBANIA",|ALB| ART Kino 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62726
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| ART Kino 3 HD" tvg-logo="https://www.artekinofestival.com/assets/img/open_graph_image.png" group-title="EU | ALBANIA",|ALB| ART Kino 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62727
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Comedy Central Extra" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/COMEDYCENTRALEXTRA.png" group-title="EU | ALBANIA",|ALB| Comedy Central Extra
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62725
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Aksion FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMAKSION.png" group-title="EU | ALBANIA",|ALB| Film Aksion FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33433
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Autor" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMAUTOR.png" group-title="EU | ALBANIA",|ALB| Film Autor
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33432
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Box Extra HD" tvg-logo="http://185.165.243.195/logo_plus/POLONIA/FILMBOXEXTRA.png" group-title="EU | ALBANIA",|ALB| Film Box Extra HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33431
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Drame" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMDRAME.png" group-title="EU | ALBANIA",|ALB| Film Drame
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33435
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film DY HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMDY.png" group-title="EU | ALBANIA",|ALB| Film DY HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33434
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Hits FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMHITS.png" group-title="EU | ALBANIA",|ALB| Film Hits FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33437
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Nje HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMNJE.png" group-title="EU | ALBANIA",|ALB| Film Nje HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33438
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Film Thriller" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMTHRILLER.png" group-title="EU | ALBANIA",|ALB| Film Thriller
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33436
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Fox Crime" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FOXCRIME.png" group-title="EU | ALBANIA",|ALB| Fox Crime
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33443
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Fox Movies" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FOXMOVIES.png" group-title="EU | ALBANIA",|ALB| Fox Movies
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33445
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Fox Life" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FOXLIFE.png" group-title="EU | ALBANIA",|ALB| Fox Life
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33444
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring 3+" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGTRING.png" group-title="EU | ALBANIA",|ALB| Tring 3+
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33493
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Comedy" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGCOMEDY.png" group-title="EU | ALBANIA",|ALB| Tring Comedy
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33494
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Fantasy" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGFANTASY.png" group-title="EU | ALBANIA",|ALB| Tring Fantasy
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33495
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Jolly FHD" tvg-logo="" group-title="EU | ALBANIA",|ALB| Tring Jolly FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33497
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Life" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGLIFE.png" group-title="EU | ALBANIA",|ALB| Tring Life
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33498
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Shqip" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSHQIP.png" group-title="EU | ALBANIA",|ALB| Tring Shqip
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33501
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Smile" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSMILE.png" group-title="EU | ALBANIA",|ALB| Tring Smile
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33503
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Tring Super FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGSUPER.png" group-title="EU | ALBANIA",|ALB| Tring Super FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33502
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Aksion" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/TRINGAKSION.png" group-title="EU | ALBANIA",|ALB| Sky Aksion
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33524
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky AL Aksion" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky AL Aksion
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62687
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky AL Drame" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky AL Drame
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62689
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky AL Komedi" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky AL Komedi
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62688
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky AL Max" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky AL Max
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62686
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Dramë" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky Dramë
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33525
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Komedi" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMKOMEDI.png" group-title="EU | ALBANIA",|ALB| Sky Komedi
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33526
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Novela" tvg-logo="https://loadhog.com/wp-content/uploads/2019/06/Sky-logo2.png" group-title="EU | ALBANIA",|ALB| Sky Novela
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33528
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| X Family HD" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/digit_alb_x.jpg" group-title="EU | ALBANIA",|ALB| X Family HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62681
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| X Western HD" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/digit_alb_x.jpg" group-title="EU | ALBANIA",|ALB| X Western HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/62685
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Adventure FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Adventure FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142065
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Aktion FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Aktion FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142066
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Comedy FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Comedy FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142067
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Drama FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Drama FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142068
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Gold FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Gold FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142074
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Romance FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Romance FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142072
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Sci-Fi FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Sci-Fi FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142073
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  Falcon Cinema Thriller FHD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  Falcon Cinema Thriller FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142071
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  MAX premier 1 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  MAX premier 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142059
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  MAX premier 2 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  MAX premier 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142060
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  MAX premier 3 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  MAX premier 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142061
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  MAX premier 4 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  MAX premier 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142062
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB|  LionTV Gold 2 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB|  LionTV Gold 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142063
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| LionTV Gold 1 HD" tvg-logo="https://slms.lsr7.org/wp-content/uploads/sites/36/2020/06/cropped-Falcon-Logo-White-Background-1.png" group-title="EU | ALBANIA",|ALB| LionTV Gold 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/142064
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| EURO FILM 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| EURO FILM 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156653
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| EURO FILM HD" tvg-logo="" group-title="EU | ALBANIA",|AL| EURO FILM HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156649
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FAMILY HD" tvg-logo="" group-title="EU | ALBANIA",|AL| FAMILY HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156654
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 ACTION 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 ACTION 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156673
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 ANIMUAR 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 ANIMUAR 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156674
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 AVENTUR 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 AVENTUR 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156675
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 BIOGRAFI 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 BIOGRAFI 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156676
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 DRAMA 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 DRAMA 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156677
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 FAMILJAR 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 FAMILJAR 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156678
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 FANTASY 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 FANTASY 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156679
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 HISTORI 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 HISTORI 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156680
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 KOMEDI 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 KOMEDI 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156681
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 KRIM 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 KRIM 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156682
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 MISTER 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 MISTER 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156683
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 NETFLIX 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 NETFLIX 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156684
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 NETFLIX 24 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 NETFLIX 24 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156685
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 ROMANCE 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 ROMANCE 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156686
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| FILMA24 THRILLER 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| FILMA24 THRILLER 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156687
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Q  PREMIUM 1 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| Q  PREMIUM 1 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156692
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Q  PREMIUM 2 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| Q  PREMIUM 2 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156693
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Q  PREMIUM 3 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| Q  PREMIUM 3 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156694
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Q  PREMIUM 4 4K" tvg-logo="" group-title="EU | ALBANIA",|AL| Q  PREMIUM 4 4K
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156695
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 1" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 1
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156697
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 2" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 2
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156698
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 3" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 3
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156699
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 4" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 4
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156700
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 5" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 5
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156701
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| TELE ONE 6" tvg-logo="" group-title="EU | ALBANIA",|AL| TELE ONE 6
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/156702
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Aksion HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Aksion HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170710
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Aventure HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Aventure HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170718
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark ChuChu TV HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark ChuChu TV HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170737
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Donald Duck HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Donald Duck HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170735
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Drame HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Drame HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170717
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Familjare HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Familjare HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170719
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Fantazi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Fantazi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170714
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Fara e Flliqt HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Fara e Flliqt HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170725
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Francez HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Francez HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170721
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gjerman HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gjerman HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170720
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170702
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170703
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170704
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170705
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 5 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170706
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 6 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 6 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170707
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 7 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 7 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170708
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Gold 8 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Gold 8 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170709
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Hindi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Hindi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170729
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Horror HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Horror HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170715
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark iStar Seriali HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark iStar Seriali HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170726
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark ITALY HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark ITALY HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170722
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Komedi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Komedi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170713
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark kongkong's (Kid's) HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark kongkong's (Kid's) HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170739
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Larva Spring (Kids) HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Larva Spring (Kids) HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170738
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Mr Bean Cartoon HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Mr Bean Cartoon HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170733
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170754
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170755
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170756
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170757
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 5 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170758
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 6 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 6 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170759
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 7 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 7 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170760
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 8 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 8 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170761
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 9 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 9 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170762
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 10 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 10 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170763
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 11 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 11 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170764
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix 12 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix 12 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170765
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Netflix HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Netflix HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170730
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  8ova Action HD" tvg-logo="" group-title="EU | ALBANIA",|AL|  8ova Action HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171934
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  8ova Drame HD" tvg-logo="" group-title="EU | ALBANIA",|AL|  8ova Drame HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171935
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  8ova Komedi HD" tvg-logo="" group-title="EU | ALBANIA",|AL|  8ova Komedi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171936
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  8ova Thriller HD" tvg-logo="" group-title="EU | ALBANIA",|AL|  8ova Thriller HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171937
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Aksion" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Aksion
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171938
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Aventure" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Aventure
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171942
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Bud Spencer &amp; Terence Hill" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Bud Spencer &amp; Terence Hill
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171952
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Dwayne Johnson" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Dwayne Johnson
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171950
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Epik" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Epik
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171945
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Fantazi" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Fantazi
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171939
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Femije" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Femije
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171944
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Horror" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Horror
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171941
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Jackie Chan" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Jackie Chan
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171948
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Komedi" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Komedi
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171940
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Relaks FHD" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Relaks FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171946
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Romance" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Romance
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171943
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Spider-Man" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Spider-Man
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171947
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Sylvester Stallone" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Sylvester Stallone
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171951
+#EXTINF:-1 tvg-ID="" tvg-name="|AL|  Netflix Van Damme" tvg-logo="" group-title="EU | ALBANIA",|AL|  Netflix Van Damme
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/171949
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Peralla HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Peralla HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170736
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Pink Panther HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Pink Panther HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170734
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Premier Kids HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Premier Kids HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170731
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark RUS HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark RUS HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170727
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Sci-Fi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Sci-Fi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170712
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Shpk Nazi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Shpk Nazi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170724
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Spanjolle HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Spanjolle HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170728
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Thriller HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Thriller HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170711
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Tom &amp; Jerry HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Tom &amp; Jerry HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170732
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Turke HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Turke HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170723
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Dark Western HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Dark Western HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170716
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Kinema24 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Kinema24 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170699
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Kinema24 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Kinema24 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170700
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Kinema24 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Kinema24 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170696
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Kinema24 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Kinema24 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170697
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Kinema24 5 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Kinema24 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170698
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| KS Filma24 Famiy" tvg-logo="" group-title="EU | ALBANIA",|AL| KS Filma24 Famiy
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170701
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 1 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 1 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170766
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 2 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 2 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170767
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 3 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 3 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170768
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 4 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 4 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170769
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 5 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 5 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170770
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| Tele One 6 HD" tvg-logo="" group-title="EU | ALBANIA",|AL| Tele One 6 HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170771
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Aksion HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Aksion HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170740
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar ChuChu TV" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar ChuChu TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170741
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Cinema DE HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Cinema DE HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170742
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Cinema HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Cinema HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170743
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Drame HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Drame HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170744
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Humor HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Humor HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170745
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Islam HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Islam HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170746
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Komedi HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Komedi HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170747
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Masha Orso" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Masha Orso
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170748
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Music CH HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Music CH HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170749
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Muzik HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Muzik HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170750
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Popullore HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Popullore HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170751
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Qifteli HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Qifteli HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170752
+#EXTINF:-1 tvg-ID="" tvg-name="|AL| WebStar Thriller HD" tvg-logo="" group-title="EU | ALBANIA",|AL| WebStar Thriller HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/170753
+#EXTINF:-1 tvg-ID="" tvg-name="--------| MUSIC |--------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",--------| MUSIC |--------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114672
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Alb Folk" tvg-logo="https://ewsat.com/img/FOLK_PLUS.png" group-title="EU | ALBANIA",|ALB| Alb Folk
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33409
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Alb Hits" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/FILMHITS.png" group-title="EU | ALBANIA",|ALB| Alb Hits
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33411
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Alb Music FHD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/MUSICBOX.png" group-title="EU | ALBANIA",|ALB| Alb Music FHD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33410
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| BBF Music HD" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/tring_bbf_music_tv.jpg" group-title="EU | ALBANIA",|ALB| BBF Music HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33414
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Elrodi TV" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/elrodi_tv_al.jpg" group-title="EU | ALBANIA",|ALB| Elrodi TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33427
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Folk" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/folk_plus.jpg" group-title="EU | ALBANIA",|ALB| Folk
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33442
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| MFM Musik" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/BALKANIKAMUSIC.png" group-title="EU | ALBANIA",|ALB| MFM Musik
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33467
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Music" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/CLIKMUSIC.png" group-title="EU | ALBANIA",|ALB| Music
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33449
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| My Music" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/CLIKMUSIC.png" group-title="EU | ALBANIA",|ALB| My Music
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33468
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTSH Muzike" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTSHPLUS.png" group-title="EU | ALBANIA",|ALB| RTSH Muzike
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33488
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV21 Popullore" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV21 Popullore
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33480
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Sky Music HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/MUSICBOX.png" group-title="EU | ALBANIA",|ALB| Sky Music HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33527
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| STV Folk" tvg-logo="https://static.wixstatic.com/media/09f151_5263ba3b411a4f43bdb014603e5a1ca0.png/v1/fill/w_223,h_180,al_c,q_85,usm_0.66_1.00_0.01/09f151_5263ba3b411a4f43bdb014603e5a1ca0.webp" group-title="EU | ALBANIA",|ALB| STV Folk
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33522
+#EXTINF:-1 tvg-ID="" tvg-name="-------| ISLAM |-------" tvg-logo="https://cdn.countryflags.com/thumbs/albania/flag-button-round-250.png" group-title="EU | ALBANIA",-------| ISLAM |-------
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/114680
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Mekke Live HD" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/MEKKALIVE.png" group-title="EU | ALBANIA",|ALB| Mekke Live HD
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33465
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| Peace TV" tvg-logo="https://tvtvtv.ru/icons/logo_3939.png" group-title="EU | ALBANIA",|ALB| Peace TV
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33452
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV Islam" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV Islam
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33472
+#EXTINF:-1 tvg-ID="" tvg-name="|ALB| RTV Pendimi" tvg-logo="http://185.165.243.195/logo_plus/ALBANIA/RTV21HD.png" group-title="EU | ALBANIA",|ALB| RTV Pendimi
+http://grcts.velkas.net:2082/Medelectro_603328/ggO8T18n/33473</value>
+  </data>
+</root>
